@@ -45,9 +45,9 @@ jobs:
     needs: Build
     environment: Load-Test
     steps:
-      - run: 
-        echo "Testing..."
-        sleep 15
+      - run: |
+          echo "🧪 Testing..."
+          sleep 15
   
   Production:
     runs-on: ubuntu-latest
