@@ -1,2 +1,1 @@
-"echo Goodbye" 
-#bye
+"echo Goodbye"
